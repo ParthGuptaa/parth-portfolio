@@ -61,10 +61,48 @@
       ]
     }
   ],
-  "achievements":[
+"achievements":[
     { "metric": "40%", "context": "Increase in organic search traffic within 3 months" },
     { "metric": "25%", "context": "Increase in user engagement and time-on-site" },
     { "metric": "2+ Yrs", "context": "Consulting at top-tier firms (EY & AWS)" }
+  ],
+  "projects":[
+    {
+      "title": "Agentic AI for Cyber Consulting",
+      "role": "Creator & Lead Developer",
+      "description": "An Agentic AI system designed to augment security professionals by automating web and mobile app vulnerability assessments.",
+      "bullets":[
+        "Developed a robust backend orchestrating industry-standard tools (OWASP ZAP, MobSF, Nmap, SQLMap, Nikto) via APIs/CLIs.",
+        "Implemented an LLM-powered engine to parse raw tool outputs into executive summaries and prioritized remediation guidance.",
+        "Built a functional web interface for consultants to input target URLs or upload APKs seamlessly."
+      ],
+      "techStack":["Agentic AI", "LLM", "OWASP ZAP", "Python", "Cybersecurity"],
+      "link": ""
+    },
+    {
+      "title": "CogniSynth",
+      "role": "Creator & Developer",
+      "description": "A foundational Agentic AI research partner for business and technology consultants, automating the 'data collector' phase.",
+      "bullets":[
+        "Engineered an interactive agent that brainstorms research angles and targets elite sources (McKinsey, EY, BCG, etc.).",
+        "Implemented a dynamic summarization feature allowing users to select key findings for focused, high-level reports.",
+        "Automated the generation of ready-to-use Excel reports compiling raw findings and source URLs."
+      ],
+      "techStack":["Python", "Streamlit", "Generative AI", "Agentic AI"],
+      "link": "https://lnkd.in/gS-HCSqk"
+    },
+    {
+      "title": "AnalyticaX",
+      "role": "Creator",
+      "description": "An AI-powered analytics tool that bridges the gap between Data Analysis and Business Analysis by generating strategic insights.",
+      "bullets":[
+        "Automated time-consuming technical tasks including data quality checks, outlier detection, and initial visualizations.",
+        "Integrated an AI engine to generate strategic questions regarding market trends, customer behavior, and operational efficiencies.",
+        "Designed to enhance stakeholder management and business process analysis by turning raw data into actionable starting points."
+      ],
+      "techStack":["Data Science", "Business Intelligence", "AI", "Data Analytics"],
+      "link": "https://lnkd.in/gUx-gAV8"
+    }
   ],
   "skills":["Enterprise Consulting", "Performance Analysis", "Cloud Migration", "Digital Transformation", "GRC", "Data Analytics", "AI & Tech Innovation", "SEO"],
   "education":[

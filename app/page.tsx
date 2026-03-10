@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import { ChevronDown, Mail, Phone, ExternalLink, Download, Trophy, Target, Award, Briefcase, GraduationCap } from 'lucide-react';
+import { ChevronDown, Mail, Phone, ExternalLink, Download, Trophy, Target, Award, Briefcase, GraduationCap, Bot, Cpu } from 'lucide-react';
 import resumeData from '../data.json';
 
 export default function Portfolio() {
@@ -61,13 +61,65 @@ export default function Portfolio() {
         </div>
       </section>
 
+      {/* AI PROJECTS SECTION */}
+      <section className="w-full py-24 scroll-mt-20 border-t border-white/5">
+        <div className="flex items-center gap-4 mb-16">
+          <Bot className="text-cyan-400" size={32} />
+          <h2 className="text-3xl md:text-4xl font-bold text-white">AI Projects & Development</h2>
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {resumeData.projects.map((proj, idx) => (
+            <motion.div 
+              key={idx} 
+              initial={{ opacity: 0, y: 30 }} 
+              whileInView={{ opacity: 1, y: 0 }} 
+              viewport={{ once: true }} 
+              transition={{ delay: idx * 0.1 }}
+              className="flex flex-col p-6 rounded-2xl bg-gradient-to-br from-slate-900/80 to-slate-900/40 border border-slate-800 hover:border-cyan-500/50 transition-all shadow-xl group"
+            >
+              <div className="flex justify-between items-start mb-4">
+                <div className="p-3 bg-blue-500/10 rounded-xl text-blue-400 group-hover:scale-110 transition-transform">
+                  <Cpu size={24} />
+                </div>
+                {proj.link && (
+                  <a href={proj.link} target="_blank" rel="noopener noreferrer" className="text-slate-500 hover:text-cyan-400 transition-colors">
+                    <ExternalLink size={20} />
+                  </a>
+                )}
+              </div>
+              <h3 className="text-xl font-bold text-white mb-2">{proj.title}</h3>
+              <p className="text-sm text-cyan-400 font-medium mb-4">{proj.role}</p>
+              <p className="text-slate-300 text-sm mb-6 flex-grow">{proj.description}</p>
+              
+              <div className="mb-6 space-y-2">
+                {proj.bullets.map((bullet, i) => (
+                  <div key={i} className="flex gap-2 text-xs text-slate-400 leading-relaxed">
+                    <span className="text-cyan-500/70">▹</span>
+                    <span>{bullet}</span>
+                  </div>
+                ))}
+              </div>
+
+              <div className="flex flex-wrap gap-2 mt-auto pt-4 border-t border-slate-800/50">
+                {proj.techStack.map((tech, i) => (
+                  <span key={i} className="px-2 py-1 text-[10px] uppercase tracking-wider font-semibold rounded bg-slate-800 text-slate-300">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      </section>
+
       {/* FOOTER */}
       <footer className="w-full py-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6">
-        <p className="text-slate-500 text-sm">© 2026 {resumeData.basics.name}.</p>
+        <p className="text-slate-500 text-sm">© {new Date().getFullYear()} {resumeData.basics.name}.</p>
         <div className="flex items-center gap-6">
           <a href={`mailto:${resumeData.basics.email}`} className="text-slate-400 hover:text-cyan-400 flex items-center gap-2 text-sm"><Mail size={16} /> Email</a>
           <a href={`tel:${resumeData.basics.phone}`} className="text-slate-400 hover:text-cyan-400 flex items-center gap-2 text-sm"><Phone size={16} /> Call</a>
-          <a href={`https://${resumeData.basics.links[0]}`} target="_blank" className="text-slate-400 hover:text-cyan-400 flex items-center gap-2 text-sm"><ExternalLink size={16} /> LinkedIn</a>
+          <a href={`https://${resumeData.basics.links[0]}`} target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-cyan-400 flex items-center gap-2 text-sm"><ExternalLink size={16} /> LinkedIn</a>
         </div>
       </footer>
     </main>
