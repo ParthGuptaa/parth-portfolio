@@ -1,0 +1,75 @@
+{
+  "basics": {
+    "name": "Parth Gupta",
+    "title": "MBA | Technology Consultant | Business Analyst",
+    "summary": "As an MBA-qualified Technology and Business Consultant with a background at top-tier firms like EY and AWS, I specialize in bridging the gap between complex business challenges and innovative technology solutions. My passion lies in driving digital transformation and ensuring operational resilience for organizations in high-stakes industries such as Financial Services, FinTech, and SaaS.",
+    "location": "Sydney, NSW, Australia",
+    "email": "parthgupta8984@gmail.com",
+    "phone": "+61426663061",
+    "links":["www.linkedin.com/in/parth-gupta-pg27"]
+  },
+  "experience":[
+    {
+      "company": "The Reconnect Project",
+      "role": "Search Engine Optimization Consultant",
+      "dates": "June 2025 - Dec 2025",
+      "location": "Sydney, NSW",
+      "bullets":[
+        "Data-Driven Growth: Leveraged analytics to execute a comprehensive SEO strategy, resulting in a 40% increase in organic search traffic within just three months.",
+        "Content Strategy: Developed a content roadmap leading to a 25% increase in user engagement and time-on-site.",
+        "Technical SEO: Conducted thorough website audits to reduce page load times and enhance site health."
+      ]
+    },
+    {
+      "company": "Endeavour Energy (NSW)",
+      "role": "Systems Project Manager",
+      "dates": "July 2025 - Nov 2025",
+      "location": "Sydney, NSW",
+      "bullets":[
+        "Systems Analysis: Applied advanced systems engineering methodologies (SSM) to analyze and improve sustainable data center operations.",
+        "Strategic Insights: Conducted in-depth stakeholder analysis to identify opportunities for renewable energy integration.",
+        "Compliance & Risk: Developed comprehensive reports on infrastructure efficiency and regulatory compliance."
+      ]
+    },
+    {
+      "company": "EY",
+      "role": "Consultant",
+      "dates": "June 2021 - Jan 2024",
+      "location": "Gurugram, India",
+      "bullets":[
+        "Strategic Requirement Definition: Defined complex functional and non-functional specifications for high-stakes digital banking projects.",
+        "Cloud Migration & Risk Mitigation: Orchestrated dependency analysis for large-scale cloud migrations to AWS environments.",
+        "Quality Assurance: Led UAT planning and execution across multiple phased rollouts.",
+        "Stakeholder Management: Facilitated high-level workshops with business owners, architects, and security leads."
+      ]
+    },
+    {
+      "company": "Amazon Web Services (AWS)",
+      "role": "Cloud Engineer",
+      "dates": "Jan 2021 - Jan 2022",
+      "location": "Remote",
+      "bullets": ["Served as a Cloud security engineer."]
+    },
+    {
+      "company": "AspireNXT",
+      "role": "Security Analyst",
+      "dates": "Jan 2020 - June 2021",
+      "location": "Singapore",
+      "bullets":[
+        "Analysed cloud architectures, identity frameworks, and security controls to ensure alignment with regulatory requirements.",
+        "Partnered with stakeholders to ensure designs met compliance, reliability, and delivery targets."
+      ]
+    }
+  ],
+  "achievements":[
+    { "metric": "40%", "context": "Increase in organic search traffic within 3 months" },
+    { "metric": "25%", "context": "Increase in user engagement and time-on-site" },
+    { "metric": "2+ Yrs", "context": "Consulting at top-tier firms (EY & AWS)" }
+  ],
+  "skills":["Enterprise Consulting", "Performance Analysis", "Cloud Migration", "Digital Transformation", "GRC", "Data Analytics", "AI & Tech Innovation", "SEO"],
+  "education":[
+    { "degree": "Master of Business Administration (MBA)", "institution": "University of Technology Sydney", "dates": "Jan 2024 - Dec 2025" },
+    { "degree": "Bachelor of Technology (BTech) - Computer Science", "institution": "University of Petroleum and Energy Studies", "dates": "Jan 2017 - Dec 2021" }
+  ],
+  "certifications":["Self Awareness and the Effective Leader", "Android development", "J.P. Morgan - Quantitative Research Job Simulation", "Telstra Cybersecurity"]
+}
