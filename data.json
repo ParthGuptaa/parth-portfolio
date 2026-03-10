@@ -23,7 +23,7 @@
     {
       "company": "Endeavour Energy (NSW)",
       "role": "Systems Project Manager",
-      "dates": "July 2025 - Nov 2025",
+      "dates": "July 2025 - Dec 2025",
       "location": "Sydney, NSW",
       "bullets":[
         "Systems Analysis: Applied advanced systems engineering methodologies (SSM) to analyze and improve sustainable data center operations.",
@@ -34,7 +34,7 @@
     {
       "company": "EY",
       "role": "Consultant",
-      "dates": "June 2021 - Jan 2024",
+      "dates": "Feb 2021 - Jan 2024",
       "location": "Gurugram, India",
       "bullets":[
         "Strategic Requirement Definition: Defined complex functional and non-functional specifications for high-stakes digital banking projects.",
@@ -62,9 +62,9 @@
     }
   ],
 "achievements":[
-    { "metric": "40%", "context": "Increase in organic search traffic within 3 months" },
-    { "metric": "25%", "context": "Increase in user engagement and time-on-site" },
-    { "metric": "2+ Yrs", "context": "Consulting at top-tier firms (EY & AWS)" }
+    { "metric": "Enterprise Consulting", "context": "4+ years delivering digital transformation, cloud migration, and enterprise systems strategy" },
+    { "metric": "AI Innovation", "context": "Developing agentic AI workflows and automation systems using modern LLM ecosystems" },
+    { "metric": "Business × Technology", "context": "Bridging complex business challenges with scalable technology solutions" }
   ],
   "projects":[
     {
